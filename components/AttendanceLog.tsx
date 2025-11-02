@@ -1,5 +1,5 @@
 import React from 'react';
-import { AttendanceRecord, AttendanceStatus } from '../types';
+import { AttendanceRecord, AttendanceStatus } from '../types.ts';
 
 const LogIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">

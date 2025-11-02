@@ -1,6 +1,5 @@
-
 import React, { useRef, useEffect, useImperativeHandle, forwardRef, useState } from 'react';
-import { CameraViewRef } from '../App';
+import { CameraViewRef } from '../App.tsx';
 
 const CameraIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">

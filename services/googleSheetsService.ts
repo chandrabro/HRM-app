@@ -1,5 +1,4 @@
-
-import { AttendanceRecord } from '../types';
+import { AttendanceRecord } from '../types.ts';
 
 /**
  * Mocks saving an attendance record to a backend service like Google Sheets.

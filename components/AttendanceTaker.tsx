@@ -1,7 +1,7 @@
 import React, { useState, forwardRef, useEffect } from 'react';
-import { CameraView } from './CameraView';
-import { LoadingSpinner } from './LoadingSpinner';
-import { CameraViewRef } from '../App';
+import { CameraView } from './CameraView.tsx';
+import { LoadingSpinner } from './LoadingSpinner.tsx';
+import { CameraViewRef } from '../App.tsx';
 
 interface AttendanceTakerProps {
   isClockedIn: boolean;

@@ -1,12 +1,12 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import { Header } from './components/Header';
-import { AttendanceTaker } from './components/AttendanceTaker';
-import { AttendanceLog } from './components/AttendanceLog';
-import { Login } from './components/Login';
-import { Toast } from './components/Toast';
-import { getAIText } from './services/geminiService';
-import { saveAttendanceRecord } from './services/googleSheetsService';
-import { AttendanceRecord, AttendanceStatus, ToastMessage } from './types';
+import { Header } from './components/Header.tsx';
+import { AttendanceTaker } from './components/AttendanceTaker.tsx';
+import { AttendanceLog } from './components/AttendanceLog.tsx';
+import { Login } from './components/Login.tsx';
+import { Toast } from './components/Toast.tsx';
+import { getAIText } from './services/geminiService.ts';
+import { saveAttendanceRecord } from './services/googleSheetsService.ts';
+import { AttendanceRecord, AttendanceStatus, ToastMessage } from './types.ts';
 
 export interface CameraViewRef {
   takeSnapshot: () => string | null;
