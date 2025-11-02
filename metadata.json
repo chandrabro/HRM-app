@@ -1,0 +1,7 @@
+{
+  "name": "AI Attendance Tracker",
+  "description": "An AI-powered attendance system for employees. Mark your attendance with a live camera feed and get a motivational boost for your day. Attendance records are logged for easy tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
